@@ -17,3 +17,8 @@ A pre-trained Doc2Vec model was used to generate feature vectors from text. A ba
 The GIF below shows a simple interaction with the developed chatbot. The model has not been trained directly on any of these exact inputs, but it is able to select a suitable response in reply. For example the model was not trained on the phrase "G'day amte" (sic), but the power of the Doc2Vec model is that is able to determine it is similar to the phrases "Hello" and "Howdy", which it has seen before, and knows to generate "Hello yourself" in response.
 
 ![](http://g.recordit.co/fNasb139vs.gif)
+
+### Potential Extensions
+1. More training examples (currently only 17)
+2. Store entire context of conversation, or utilise model with some hidden state, that tracks this kind of information
+3. Generative model 
