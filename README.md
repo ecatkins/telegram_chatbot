@@ -6,6 +6,7 @@ The creation of the parts of the program that interact with the Telegram API uti
 
 ### Requirements
 * numpy, pandas, requests, sklearn, gensim & a pre-trained gensim Doc2Vec model
+* set-up a secret.py file according to the _secret.py template
 
 ### Description of project basics
 The chatbot created is a retrieval based model, rathern than a generative model. This means that it selects from a range of pre-defined answers rather than trying to generate novel responses to the input of the user.
